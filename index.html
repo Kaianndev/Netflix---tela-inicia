@@ -3,57 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <!--- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style/main.css">
 
-    <!--- Arquivos Owl css-->
+    <!--responsividade-->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!--owl css-->
     <link rel="stylesheet" href="style/owl/owl.carousel.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.css">
 
-    <title> NETFLIX </title>
+    <title> NETFLIX CLONE </title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo"> NETFLIX </h2>
+            <h2 class="logo">NETFLIX</h2>
             <nav>
-                <a href="#"> Inicio </a>
-                <a href="#"> Séries </a>
-                <a href="#"> Filmes </a>
-                <a href="#"> Documentarios </a>
+                <a href="#">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Documentários</a>
             </nav>
         </div>
-        <main>
-            <div class="filme-principal">
-                <div class="container">
-                    <h3 class="titulo"> Pluto </h3>
-                    <p class="descricao"> Quando os sete robôs mais avançados do mundo e seus aliados humanos são assassinados um a um, o Inspetor Gesicht logo descobre que também está em perigo. </p>
+    </header>
 
-                        <div class="botoes">
-                            <button role="button" class="botao">
-                                <i class="fa-solid fa-play"></i>
-                                ASSISTIR AGORA
-                            </button>
-            
-                            <button role="button" class="botao">
-                                <i class="fa-solid fa-circle-info"></i>
-                                MAIS INFORMAÇÕES
-                            </button>
-
-                        </div>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">PLUTO</h3>
+                <p class="descricao">Quando os sete robôs mais avançados do mundo e seus aliados humanos são assassinados um a um, o Inspetor Gesicht logo descobre que também está em perigo.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFORMAÇÕES
+                    </button>
                 </div>
             </div>
-        </main>
-        <div class="carrosel-filmes">
-            <div class="owl-carousel owl-theme">
+        </div>
+    </main>
+
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+                
                 <div class="item">
                     <img class="box-filme" src="img/Elite.jpeg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/as telefonistas.jpeg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/califado.jpeg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/peky .jpeg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class="box-filme" src="img/the crown.jpeg" alt="" srcset="">
+                </div>
+                
         </div>
-        <script src="https://kit.fontawesome.com/e766b9ac70.js"></script>
-        <script src="js/owl/jquery.min.js"></script>
-        <script src="js/owl/owl.carousel.min.js"></script>
-        <script src="js/owl/setup.js"></script>
+    </div>
+
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+
+
+
 </body>
 </html>
